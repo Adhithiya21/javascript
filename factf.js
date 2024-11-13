@@ -1,0 +1,4 @@
+function factnumber(num) {
+return 
+    
+}
