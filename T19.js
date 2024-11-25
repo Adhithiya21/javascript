@@ -10,7 +10,7 @@ console.log(str);
 
 str = str.toUpperCase();
 
-str += " LET'S CODE!";
+str += " LET'S CODE! ";
 
 str = str.repeat(2);
 
