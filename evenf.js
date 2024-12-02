@@ -1,7 +1,6 @@
 function isEven(num) {
     return num % 2 === 0;
 }
-
 const num = 6;
 const isEvenNumber = isEven(num);
 
@@ -10,4 +9,3 @@ if (isEvenNumber) {
 } else {
     console.log("The number", num, "is odd");
 }
-
