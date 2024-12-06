@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const sentence = "hello java language";
+       
+        let word = sentence.split(' ');  
+        let wordfrequency = {};  
+        for (const frequency of word) {
+            const lowercaseword = frequency.toLowerCase();  
+            if (wordfrequency[lowercaseword])       
+            {
+                    wordfrequency[lowercaseword]++;
+            } 
+            else 
+            {
+                    wordfrequency[lowercaseword] = 1;
+            }
+        }
+
+        for (const frequency in wordfrequency) {
+            document.write(`Word: "${frequency}", Frequency: ${wordfrequency[frequency]}`);
+        }
+    </script>
+</body>
+</html>

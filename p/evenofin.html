@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      const numbers=[2,42,54,3,9,2,13,75];
+       let even=[];
+       let odd=[];
+    
+    for(const number of numbers ){
+      if(number%2===0){
+         even.push(number);
+      }
+      else{
+        odd.push(number);
+
+      }
+    }
+    document.write('even numbers in the array is: ',even+"<br>");
+    document.write("odd numbers in the array is: ",odd+"<br>");
+
+    for(const index in numbers)
+        {
+            document.write(`${index}: ${numbers [index]+"<br>"}`);
+        }
+    </script>
+    
+</body>
+</html>
