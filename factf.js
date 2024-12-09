@@ -1,4 +1,2 @@
-function factnumber(num) {
-return 
-    
-}
+// function factnumber(num) {
+// return 
